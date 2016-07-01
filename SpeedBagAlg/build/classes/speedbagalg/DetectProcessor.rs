@@ -1,0 +1,3 @@
+speedbagalg.DetectProcessor
+speedbagalg.DETFilterKernel
+speedbagalg.FEPFilterKernel
