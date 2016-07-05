@@ -1,2 +1,0 @@
-speedbagalg.FrontEndProcessor
-speedbagalg.FEPFilterKernel
