@@ -26,7 +26,7 @@ You can view the Java source code in the src directory under Java folder with an
 
 **Approach:**
 
-Since this is to run on a micro controller I decided to not use any floating point or time consuming math functions. All math used by the algorithm is integer addition, subtraction, multiplication or division. I used a Front End processor to remove bias and condition the raw input signal, next a detection processor to further condition the signal and find the minimums and maximums to be used to count punches. Right now I’m using a fixed time to gate triggering to early on the next punch when the signal gets too noisy, but I want to add a tracking processor to track the punches and be able to open and close amplitude and frequency thresholds plus the possibility of lighting an LED when the rhythm is staying consistent.
+Since this is to run on a micro controller I decided not to use any floating point or time consuming math functions. All math used by the algorithm is integer addition, subtraction, multiplication or division. I used a Front End processor to remove bias and condition the raw input signal, next a detection processor to further condition the signal and find the minimums and maximums to be used to count punches. Right now I’m using a fixed time to gate triggering too early on the next punch when the signal gets too noisy, but I want to add a tracking processor to track the punches and be able to open and close amplitude and frequency thresholds plus the possibility of lighting an LED when the rhythm is staying consistent.
 
 **Front End Processor:**
 
